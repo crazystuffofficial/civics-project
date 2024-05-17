@@ -5,6 +5,9 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            transition: margin-left .5s;
         }
         h1, h2 {
             color: #333;
@@ -18,9 +21,40 @@
             background-color: #f0f0f0;
             border-radius: 5px;
         }
+        /* Navigation Bar Styles */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 100%;
+            background-color: #333;
+            padding: 20px;
+            transition: left .5s;
+        }
+        .navbar a {
+            display: block;
+            color: #f0f0f0;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+        .navbar a:hover {
+            color: #fff;
+        }
+        /* Slide-in Transition */
+        .slide-in {
+            left: -200px;
+        }
     </style>
 </head>
 <body>
+    <!-- Navigation Bar -->
+    <div id="navbar" class="navbar slide-in">
+        <a href="page1.html">Page 1</a>
+        <a href="page2.html">Page 2</a>
+        <!-- Add more pages as needed -->
+    </div>
+
     <h1>Why Civics is Important</h1>
     <p>Civics education is crucial for the development of informed and engaged citizens. It provides students with the knowledge and skills necessary to participate in democratic processes.</p>
 
@@ -46,6 +80,9 @@
             factDiv.textContent = facts[i];
             factsDiv.appendChild(factDiv);
         }
+
+        // Slide-in Transition for Navigation Bar
+        document.getElementById('navbar').classList.remove('slide-in');
     </script>
 </body>
 </html>
