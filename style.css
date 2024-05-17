@@ -1,0 +1,42 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            transition: margin-left .5s;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        #facts {
+            margin: 20px 0;
+        }
+        .fact {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+        }
+        /* Navigation Bar Styles */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 100%;
+            background-color: #333;
+            padding: 20px;
+            transition: left .5s;
+        }
+        .navbar a {
+            display: block;
+            color: #f0f0f0;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+        .navbar a:hover {
+            color: #fff;
+        }
+        /* Slide-in Transition */
+        .slide-in {
+            left: -200px;
+        }
