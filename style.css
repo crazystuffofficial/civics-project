@@ -1,42 +1,75 @@
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            transition: margin-left .5s;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        #facts {
-            margin: 20px 0;
-        }
-        .fact {
-            margin: 10px 0;
-            padding: 10px;
-            background-color: #f0f0f0;
-            border-radius: 5px;
-        }
-        /* Navigation Bar Styles */
-        .navbar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 200px;
-            height: 100%;
-            background-color: #333;
-            padding: 20px;
-            transition: left .5s;
-        }
-        .navbar a {
-            display: block;
-            color: #f0f0f0;
-            text-decoration: none;
-            margin-bottom: 10px;
-        }
-        .navbar a:hover {
-            color: #fff;
-        }
-        /* Slide-in Transition */
-        .slide-in {
-            left: -200px;
-        }
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+body h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+body h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.75em;
+}
+
+body p {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    padding: 20px;
+    transition: left .5s;
+    overflow: auto;
+}
+
+.navbar a {
+    display: block;
+    color: #f0f0f0;
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color .3s;
+}
+
+.navbar a:hover {
+    background-color: #444;
+}
+
+main {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+#facts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.fact {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    transition: transform .3s;
+}
+
+.fact:hover {
+    transform: scale(1.05);
+}
+
+.fact p {
+    font-size: 0.9em;
+    line-height: 1.4;
+}
