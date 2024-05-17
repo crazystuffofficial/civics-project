@@ -1,42 +1,41 @@
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    background-color: #ffffff; 
+    background-color: #ffffff;
     color: #333;
-    line-height: 1.8; 
+    line-height: 1.8;
 }
 
 body h1, body h2 {
-    margin-top: 0; 
+    margin-top: 0;
+    color: #ffffff; /* Change text color to white */
+    background-color: #000000; /* Change background color to black */
+    padding: 10px; /* Add some padding */
 }
 
 .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 250px; 
-    height: 100%;
-    background-color: #444; 
-    padding: 20px;
-    transition: left .5s;
-    overflow: auto;
+    width: 100%; /* Make the navbar span the full width of the page */
+    height: 60px; /* Adjust as needed */
+    background-color: #444;
+    padding: 10px 20px; /* Add some padding */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
 
 .navbar a {
-    display: block;
+    display: inline-block; /* Align links side by side */
     color: #f0f0f0;
     text-decoration: none;
-    margin-bottom: 10px;
-    padding: 15px; 
+    margin: 0 10px; /* Add horizontal margins */
+    padding: 10px 20px; /* Increase padding */
     border-radius: 5px;
     transition: background-color .3s;
+    background-color: #777; /* Change background color to grey */
 }
 
 .navbar a:hover {
-    background-color: #555; 
+    background-color: #555;
 }
 
 main {
-    margin-left: 270px; 
     padding: 20px;
 }
 
@@ -49,7 +48,7 @@ main {
 .fact {
     padding: 20px;
     background-color: #fff;
-    border-radius: 10px; 
+    border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
     transition: transform .3s;
 }
