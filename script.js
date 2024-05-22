@@ -1,8 +1,6 @@
 function setNavbarInnerHTML() {
     document.querySelector(".navbar").innerHTML = `
-        <a href="/">Home Page</a>
-        <a href="firstammendment.html">First Amendment Freedoms
-</a>
+        <a href="./">Home Page</a>
         <a href="firstammendment.html">First Amendment Freedoms
 </a>        <a href="firstammendment.html">Civics Education
 </a>        <a href="firstammendment.html">Benefits of Civics Education
