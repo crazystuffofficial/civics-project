@@ -1,5 +1,5 @@
 function setNavbarInnerHTML() {
-    document.querySelector(".nav").innerHTML = `
+    document.querySelector("nav").innerHTML = `
       <ul>
 	<li><a href="index.html"> <button type="button">Home</button></a></li>
         <li><a href="firstammendment.html"> <button type="button">First Amendment Freedoms</button></a></li>
