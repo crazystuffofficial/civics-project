@@ -1,12 +1,13 @@
 function setNavbarInnerHTML() {
     document.querySelector(".navbar").innerHTML = `
-        <a href="./">Home Page</a>
-        <a href="firstammendment.html">First Amendment Freedoms
-</a>        <a href="civicsedu.html">Civics Education
-</a>        <a href="benefits.html">Benefits of Civics Education
-</a>        <a href="buy.html">What We Could Buy
-</a>        <a href="publicgood.html">Civics and the Public Good
-</a>
+      <ul>
+	<li><a href="index.html"> <button type="button">Home</button></a></li>
+        <li><a href="about.html"> <button type="button">First Amendment Freedoms</button></a></li>
+        <li><a href="equipment.html"> <button type="button">Civics Education</button></a></li>
+        <li><a href="events.html"> <button type="button">Benefits of Civics Education</button></a></li>
+	<li><a href="workshops.html"> <button type="button">What We Could Buy</button></a></li>
+	<li><a href="classes.html"><button type="button">Civics and the Public Good</button></a></li>
+      </ul>
     `;
 }
 
