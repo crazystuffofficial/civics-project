@@ -20,7 +20,12 @@ body h1, body h2 {
   background-color: #000000; 
   padding: 10px; 
 }
-
+header {
+  background-color: #161421;
+  color: #F6D55C;
+  padding: 20px;
+  text-align: center;
+}
 nav ul {
   list-style-type: none;
   color: #161421;
