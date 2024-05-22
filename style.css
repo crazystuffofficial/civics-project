@@ -21,29 +21,24 @@ body h1, body h2 {
   padding: 10px; 
 }
 
-.navbar {
-  width: 100%; 
-  height: 60px; 
-  background-color: #444;
-  padding: 10px 20px; 
-  box-sizing: border-box; 
+nav ul {
+  list-style-type: none;
+  color: #161421;
+  padding: 0;
 }
 
-.navbar a {
-  display: inline-block; 
-  color: #f0f0f0;
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: #fff;
   text-decoration: none;
-  margin: 0 10px; 
-  padding: 10px 20px; 
-  border-radius: 5px;
-  transition: background-color .3s;
-  background-color: #777; 
 }
-
-.navbar a:hover {
+button:hover {
   background-color: #555;
 }
-
 main {
   padding: 20px;
 }
