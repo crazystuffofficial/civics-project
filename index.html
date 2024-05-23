@@ -1,74 +1,42 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Civics Education Advocacy</title>
     <link href="style.css" rel="stylesheet">
-</head>
-<body>
-<header>
-<h1>Why Civics is Important</h1>
-<nav>
-</nav>
-</header>
-
+  </head>
+  <body>
+    <header>
+      <h1>Why Civics is Important</h1>
+      <nav></nav>
+    </header>
     <section>
-        <p>Civics education is crucial for the development of informed and engaged citizens. It provides students with the knowledge and skills necessary to participate in democratic processes.</p>
+      <p>Civics education is crucial for the development of informed and engaged citizens. It provides students with the knowledge and skills necessary to participate in democratic processes.</p>
     </section>
-
     <section>
-        <h2>Interesting Facts About Learning Civics</h2>
-        <div id="facts" class="fact"></div>
-    </section>
-
-    <section>
-        <h2>Why Civics Should Be Learned in School</h2>
-        <div class="citation-container">
-            <p>Learning civics in school prepares students for active citizenship. It helps them understand their rights and responsibilities, and the workings of their government.</p>
+      <h2>Interesting Facts About Learning Civics</h2>
+      <div id="facts" class="fact">
+        <div class="fact collapsible">Fact 1: Civics education promotes critical thinking skills.</div>
+        <div class="content">
+          <img src="civics.jpg" alt="Civics Learning" />
         </div>
+        <div class="fact collapsible">Fact 2: It fosters a sense of community and shared values.</div>
+        <div class="content">
+          <img src="civics.jpg" alt="Civics Learning" />
+        </div>
+        <div class="fact collapsible">Fact 3: Civics education helps students become informed voters.</div>
+        <div class="content">
+          <img src="civics.jpg" alt="Civics Learning" />
+        </div>
+        <div class="fact collapsible">Fact 4: It encourages civic participation and advocacy.</div>
+        <div class="content">
+          <img src="civics.jpg" alt="Civics Learning" />
+        </div>
+      </div>
     </section>
-
     <section>
-<div class="wrap-collapsible">
-    <button class="collapsible">Show Images</button>
-    <div class="content">
-        <img src="civics.jpg" alt="Civics Learning" />
-    </div>
-</div>
+      <img src="civics.jpg" alt="Civics Learning" />
     </section>
-
-    <footer>
-        Made by Shayaan Hooda
-    </footer>
+    <footer> Made by Shayaan Hooda </footer>
     <script src="script.js"></script>
-    <script>
-        var facts = [
-    "Fact 1: Civics education promotes critical thinking skills.",
-    "Fact 2: It fosters a sense of community and shared values.",
-    "Fact 3: Civics education helps students become informed voters.",
-    "Fact 4: It encourages civic participation and advocacy."
-];
-
-var factsDiv = document.getElementById('facts');
-
-function createFactDiv(fact) {
-    var factDiv = document.createElement('div');
-    factDiv.className = 'fact';
-    factDiv.textContent = fact;
-    return factDiv;
-}
-
-function appendFactDiv(factDiv) {
-    factsDiv.appendChild(factDiv);
-}
-
-function createAndAppendAllFactDivs() {
-    for (var i = 0; i < facts.length; i++) {
-        var factDiv = createFactDiv(facts[i]);
-        appendFactDiv(factDiv);
-    }
-}
-
-createAndAppendAllFactDivs();
-    </script>
-</body>
+  </body>
 </html>
