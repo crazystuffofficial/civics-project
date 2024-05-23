@@ -9,20 +9,20 @@ function whenLoaded() {
 	<li><a href="publicgood.html"><button type="button">Civics and the Public Good</button></a></li>
       </ul>
     `;
-    const coll = document.getElementsByClassName("collapsible");
-    for (let i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            const content = this.nextElementSibling;
-            if (content.style.display === "block") {
-                content.style.display = "none";
-                this.innerText = "Show Images"; // Change button text
-            } else {
-                content.style.display = "block";
-                this.innerText = "Hide Images"; // Change button text
-            }
-        });
-    }
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
 }
 
 document.addEventListener("DOMContentLoaded", whenLoaded);
