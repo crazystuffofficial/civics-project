@@ -16,8 +16,10 @@ function whenLoaded() {
             const content = this.nextElementSibling;
             if (content.style.display === "block") {
                 content.style.display = "none";
+                this.innerText = "Show Images"; // Change button text
             } else {
                 content.style.display = "block";
+                this.innerText = "Hide Images"; // Change button text
             }
         });
     }
