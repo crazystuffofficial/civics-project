@@ -31,5 +31,9 @@ footer.innerText = "Made by Shayaan Hooda";
 document.body.appendChild(footer);
 }
 document.title="LAA Why Is Civics Important? Hooda, 2024";
+var img = document.querySelectorAll("img");
+for(var i = 0; i < img.length; i++){
+	img[i].outerHTML = "<center>" + img[i].outerHTML + "</center>";
+}
 }
 document.addEventListener("DOMContentLoaded", whenLoaded);
