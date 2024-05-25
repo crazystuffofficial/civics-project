@@ -31,5 +31,5 @@ document.body.appendChild(footer);
 }
 document.title="LAA Why Is Civics Important? Hooda, 2024";
 }
-
+localStorage.setItem("e", "e");
 document.addEventListener("DOMContentLoaded", whenLoaded);
