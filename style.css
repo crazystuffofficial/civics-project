@@ -93,7 +93,10 @@ main {
 .fact:hover {
   transform: scale(1.05);
 }
-
+p{
+  font-size: 100vw;
+  font-weight: bold;
+}
 .fact p {
   font-size: 0.9em;
   line-height: 1.4;
