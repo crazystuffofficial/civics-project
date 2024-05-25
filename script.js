@@ -24,6 +24,11 @@ for (i = 0; i < coll.length; i++) {
     } 
   });
 }
+if(!document.querySelector("footer")){
+var footer = document.createElement("footer");
+footer.innerText = "Made by Shayaan Hooda";
+document.body.appendChild(footer);
+}
 }
 
 document.addEventListener("DOMContentLoaded", whenLoaded);
