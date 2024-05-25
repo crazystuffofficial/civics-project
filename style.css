@@ -94,7 +94,7 @@ main {
   transform: scale(1.05);
 }
 p{
-  font-size: 1vw;
+  font-size: 19px;
   font-weight: bold;
 }
 .fact p {
