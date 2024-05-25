@@ -19,14 +19,12 @@
   position:relative;
 animation:animatetop 0.4s;
 }
-html {
-  position: relative;
-  min-height: 100%;
-}
+
 body {
   font-family: 'latolight';
   background-color: #ffffff;
   color: #333;
+  min-height: 100%;
   line-height: 1.8;
   margin: 0;
   padding: 0;
