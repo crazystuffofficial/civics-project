@@ -29,7 +29,7 @@ body {
   overflow-x: hidden;
 }
 
-body h1, body h2 {
+body h2 {
   margin-top: 0;
   color: #ffffff; 
   background-color: #000000; 
