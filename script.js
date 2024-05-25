@@ -16,7 +16,7 @@ for (i = 0; i < coll.length; i++) {
 coll[i].setAttribute("name", i);
   coll[i].addEventListener("click", function() {
     this.classList.toggle("active");
-    var content = document.querySelectorAll("content")[eval(this.getAttribute("name")];
+    var content = document.querySelectorAll(".content")[eval(this.getAttribute("name"))];
     if (content.style.maxHeight){
       content.style.maxHeight = null;
     } else {
