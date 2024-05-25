@@ -102,7 +102,9 @@ p{
   font-size: 0.9em;
   line-height: 1.4;
 }
-
+img{
+  text-align: center;
+}
 .content {
   padding: 0 18px;
   max-height: 0;
