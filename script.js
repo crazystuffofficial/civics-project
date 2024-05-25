@@ -29,6 +29,7 @@ var footer = document.createElement("footer");
 footer.innerText = "Made by Shayaan Hooda";
 document.body.appendChild(footer);
 }
+document.title="LAA Why Is Civics Important? Hooda, 2024"
 }
 
 document.addEventListener("DOMContentLoaded", whenLoaded);
