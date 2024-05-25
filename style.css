@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'latolight';
   background-color: #ffffff;
   color: #333;
   line-height: 1.8;
@@ -85,4 +85,10 @@ main {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
 }
