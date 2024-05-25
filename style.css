@@ -19,6 +19,10 @@
   position:relative;
 animation:animatetop 0.4s;
 }
+html {
+  position: relative;
+  min-height: 100%;
+}
 body {
   font-family: 'latolight';
   background-color: #ffffff;
@@ -101,6 +105,8 @@ main {
   background-color: #f1f1f1;
 }
 footer {
+  position: absolute;
+  bottom: 0;
   background-color: #333;
   color: #fff;
   text-align: center;
