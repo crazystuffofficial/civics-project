@@ -36,5 +36,8 @@ var img = document.querySelectorAll("img");
 for(var i = 0; i < img.length; i++){
 	img[i].outerHTML = "<center>" + img[i].outerHTML + "</center>";
 }
+if(document.querySelector("h1").innerHTML.startsWith("Civics Education Advocacy") == false){
+	document.querySelector("h1").innerText = "Civics Education Advocacy" + document.querySelector("h1").innerText;
+}
 }
 document.addEventListener("DOMContentLoaded", whenLoaded);
