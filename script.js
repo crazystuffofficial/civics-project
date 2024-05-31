@@ -8,6 +8,7 @@ function whenLoaded() {
 	<li><a href="buy.html"> <button type="button">What We Could Buy</button></a></li>
 	<li><a href="publicgood.html"><button type="button">Civics and the Public Good</button></a></li>
 	<li><a href="rubric.html"><button type="button">Rubric</button></a></li>
+ 	<li><a href="citations.html"><button type="button">Citations</button></a></li>
       </ul>
     `;
 var coll = document.getElementsByClassName("collapsible");
