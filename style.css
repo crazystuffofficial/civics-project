@@ -42,7 +42,7 @@ body h2 {
   padding: 10px; 
 }
 header {
-  background-image: url("/img/background.png");
+  background-image: url("img/background.png");
   color: #F6D55C;
   padding: 20px;
   text-align: center;
