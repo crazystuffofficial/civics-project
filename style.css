@@ -43,10 +43,15 @@ body h2 {
 }
 header {
   background-image: url("img/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #161421;
   color: #F6D55C;
   padding: 20px;
   text-align: center;
 }
+
 nav ul {
   list-style-type: none;
   color: #161421;
